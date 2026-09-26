@@ -1,0 +1,20 @@
+[
+  {
+    "id": "jeff-geerling-organizer",
+    "name": "Jeff Geerling",
+    "relationship": "Event organizer",
+    "source_url": "https://www.jeffgeerling.com/blog/2026/homelabfest-announcement/",
+    "public_contact_channels": [],
+    "notes": "In this announcement, Geerling says he is starting HomelabFest.",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "st-charles-convention-center",
+    "name": "St. Charles Convention Center",
+    "relationship": "Event venue",
+    "source_url": "https://www.homelabfest.org/",
+    "public_contact_channels": [],
+    "notes": "HomelabFest lists this venue for its September 12–14, 2027 event.",
+    "last_checked": "2026-09-26"
+  }
+]

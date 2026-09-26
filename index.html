@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f0e7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#101713" media="(prefers-color-scheme: dark)">
+    <meta name="description" content="An open, source-linked record of Jeff Geerling's public writing relevant to HomelabFest, for the public, event participants, creators, and sponsors.">
+    <title>No Hate in Homelab | Know the record before the fest</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="No Hate in Homelab home">
+        <span>No Hate <span class="wordmark-light">in Homelab</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#record">The record</a>
+        <a href="#event">The event</a>
+        <a href="#about">About</a>
+        <a href="letter-to-jeff.html">A letter to Jeff</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Know the record<br><span>before the fest.</span></h1>
+          <p class="hero-intro">Jeff Geerling is organizing HomelabFest for September 2027. This project documents his public writing on LGBTQ+ people and reproductive rights, records public event relationships, and links readers to the original sources.</p>
+          <p class="hero-stance">People can hold and express their own beliefs. The community can also weigh those public statements when deciding who should represent its spaces and profit from the community. We want homelab events to welcome LGBTQ+ people and everyone affected by these issues. Participants and supporters should be able to review the record and decide for themselves.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#record">Read the source record <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">How this project works</a>
+          </div>
+        </div>
+        <aside class="hero-side" aria-label="Project scope">
+          <div class="hero-side-top">
+            <span class="small-label">The focus</span>
+            <span class="orbit" aria-hidden="true"><span></span></span>
+          </div>
+          <p>Public words.<br><em>Public choices.</em></p>
+        </aside>
+      </section>
+
+      <section class="content-section record-section" id="record" aria-labelledby="record-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The public record</p>
+            <h2 id="record-title">Jeff’s writing</h2>
+          </div>
+          <p class="section-deck">Selected public posts from Jeff Geerling’s blog, with excerpts, context, and links to each original page. This first pass is not exhaustive; it includes one post discussing homosexuality and no transgender-specific posts. <a href="https://www.jeffgeerling.com/blog/" target="_blank" rel="noopener noreferrer">Browse Jeff’s full post list ↗</a></p>
+        </div>
+
+        <div class="record-controls">
+          <label class="search-label" for="post-search">Search posts
+            <input id="post-search" type="search" placeholder="Try “abortion” or “LGBTQ+”" autocomplete="off">
+          </label>
+          <label class="filter-label" for="topic-filter">Filter by topic
+            <select id="topic-filter"><option value="all">All topics</option></select>
+          </label>
+          <p id="results-count" class="results-count" aria-live="polite">Loading records…</p>
+        </div>
+
+        <div id="post-list" class="post-list" aria-live="polite" aria-busy="true">
+          <p class="loading-note">Loading source records…</p>
+        </div>
+        <noscript><p class="notice">Turn on JavaScript to browse the source records on this page. The source data is available in the project repository.</p></noscript>
+      </section>
+
+      <section class="context-strip" aria-labelledby="context-title">
+        <div>
+          <p class="eyebrow">Context matters</p>
+          <h2 id="context-title">Which views does he stand by today?</h2>
+        </div>
+        <p>Jeff has responded publicly in the Hacker News discussion: he referred to the general age notice and said HomelabFest is for everyone. We include that welcome. His reply does not identify which positions in these specific posts he still holds or how they have changed. One post also has a later note saying he would write many things differently, without identifying which claims he meant. A post-specific clarification, if he chooses to add one, could help readers understand his current views in his own words.</p>
+      </section>
+
+      <section class="content-section event-section" id="event" aria-labelledby="event-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The event</p>
+            <h2 id="event-title">Who is connected<br>to HomelabFest?</h2>
+          </div>
+          <p class="section-deck">We index people and organizations on HomelabFest’s own public pages. A listing records what the event site says; it does not imply endorsement or awareness of this project.</p>
+        </div>
+        <div class="event-facts">
+          <div><span class="small-label">When</span><strong>September 12–14, 2027</strong></div>
+          <div><span class="small-label">Where</span><strong>St. Charles Convention Center<br>St. Charles, Missouri</strong></div>
+          <a href="https://www.homelabfest.org/" target="_blank" rel="noopener noreferrer">HomelabFest official site <span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="response-list" class="response-list" aria-live="polite" aria-busy="true">
+          <p class="loading-note">Loading the organizer’s public response…</p>
+        </div>
+        <div id="organization-list" class="organization-list" aria-live="polite" aria-busy="true">
+          <p class="loading-note">Loading event relationships…</p>
+        </div>
+        <div class="listing-heading">
+          <div>
+            <p class="eyebrow">Event-listed participants</p>
+            <h3>Featured creators</h3>
+          </div>
+          <label class="creator-search" for="creator-search">Find a creator
+            <input id="creator-search" type="search" placeholder="Search the listed names" autocomplete="off">
+          </label>
+        </div>
+        <p class="listing-note">These 28 names appeared on the event’s featured creators page when checked September 26, 2026; the page says more creators may be added. Their inclusion here does not imply that they know about this project or share the organizer’s views. <a href="https://www.homelabfest.org/creators/" target="_blank" rel="noopener noreferrer">View the official list ↗</a></p>
+        <div id="creators-list" class="creator-grid" aria-live="polite" aria-busy="true">
+          <p class="loading-note">Loading featured creators…</p>
+        </div>
+        <section class="event-partners" aria-labelledby="sponsor-index-title">
+          <div>
+            <p class="eyebrow">Sponsor directory</p>
+            <h3 id="sponsor-index-title">Organizations named as sponsors</h3>
+          </div>
+          <p id="event-partner-status">Loading the official sponsor listing…</p>
+          <div class="event-partner-links" id="event-partner-links">
+            <a href="https://deskpi.com/" target="_blank" rel="noopener noreferrer">DeskPi · Platinum sponsor ↗</a>
+            <a href="https://www.twingate.com/" target="_blank" rel="noopener noreferrer">Twingate · Other sponsor ↗</a>
+            <a href="https://www.servethehome.com/" target="_blank" rel="noopener noreferrer">ServeTheHome · Other sponsor ↗</a>
+            <a href="https://www.homelabfest.org/sponsors/" target="_blank" rel="noopener noreferrer">Official sponsor page ↗</a>
+          </div>
+        </section>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About this project</p>
+          <h2 id="about-title">A fuller view<br>for everyone.</h2>
+        </div>
+        <div class="about-copy">
+          <p>Our goal is to make Jeff Geerling’s past public statements on LGBTQ+ people and reproductive rights visible to the public, HomelabFest participants and featured creators, and event sponsors. We link to original sources so everyone can review the same material and form their own views.</p>
+          <p>Jeff is welcome to update or clarify any statements where he feels more context is needed. We will link to those updates alongside the original posts so readers can understand his current views in his own words.</p>
+          <p>We identify our summaries as summaries, use short excerpts to help readers locate the relevant passages, and correct the record when better evidence appears.</p>
+          <div class="about-links">
+            <a href="CONTRIBUTING.md">Contribution guidelines <span aria-hidden="true">↗</span></a>
+            <a href="data/posts.json">Browse the source data <span aria-hidden="true">↗</span></a>
+            <a href="data/organizations.json">Browse event records <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#top"><span>No Hate <span class="wordmark-light">in Homelab</span></span></a>
+      <p>Keep the community wide.</p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </footer>
+    <p id="load-error" class="load-error" role="alert" hidden>Some project records could not be loaded. Refresh the page or check that the local data files are available.</p>
+  </body>
+</html>
